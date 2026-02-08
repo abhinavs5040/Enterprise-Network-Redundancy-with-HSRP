@@ -1,6 +1,6 @@
 # Enterprise-Network-Redundancy-with-HSRP
 Enterprise network simulation with VLAN segmentation, inter-VLAN routing, and HSRP for gateway redundancy. Designed in Cisco Packet Tracer with failover testing to ensure high availability and minimal downtime.
-🚀 Project Summary
+#🚀 Project Summary
 Designed and implemented an enterprise-like network topology with:
 
 VLAN segmentation (HR, Finance, IT)
@@ -12,7 +12,7 @@ ACLs to enforce role-based traffic policies (example: block HR → IT)
 Config exports & failover testing for demonstration
 Configs, Packet Tracer file, topology image and verification steps are included.
 
-🗺 Topology (summary)
+#🗺 Topology (summary)
 HQ
 L3SW-1 (Primary L3 switch) — HSRP Active, DHCP server, OSPF
 L3SW-2 (Standby L3 switch) — HSRP Standby, OSPF
@@ -23,7 +23,7 @@ R-BR1, SW-BR1, PCs (branch 1)
 R-BR2, SW-BR2, PCs (branch 2)
 (See images/topology.png in this repo for the workspace screenshot.)
 
-⚙️ Addressing & VLANs (used in this lab)
+#⚙️ Addressing & VLANs (used in this lab)
 VLAN 10 (HR) → 10.0.10.0/24 (HSRP VIP: 10.0.10.1)
 VLAN 20 (Finance) → 10.0.20.0/24 (HSRP VIP: 10.0.20.1)
 VLAN 30 (IT) → 10.0.30.0/24 (HSRP VIP: 10.0.30.1)
